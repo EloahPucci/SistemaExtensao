@@ -1,0 +1,29 @@
+    1  echo ~
+    2  cd git
+    3  cd SistemaExtensao
+    4  git init
+    5  git status
+    6  git add <reademe.txt>
+    7  git add readme.txt
+    8  git status
+    9  git commit -n
+   10  git commit -m "Arquivo Incial do Sistema"
+   11  ls
+   12  help
+   13  git status
+   14  git add readme.txt
+   15  git commit -m "alteração do txt"
+   16  git config --global user.email "eloahpucci@gmail.com"
+   17  git config --global user.name "EloahPucci"
+   18  git push origin master
+   19  git commit -am
+   20  vi readme.txt
+   21  git commit -m "modifiquei novamente"
+   22  vi readme.txt
+   23  git commit -m "modifiquei novamente"
+   24  git add readme.txt
+   25  git commit -m "modifiquei novamente"
+   26  git remote add origin https://github.com/EloahPucci/SistemaExtensao
+   27  git push origin master
+   28  history
+   29  history > historico.txt
